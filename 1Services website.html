@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>وش تبي بس</title>
+    <link rel="stylesheet" href="1Services website.css" />
+    <link rel="shortcut icon" href="img/S1S.png" type="image/png" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img id="icon" src="img/S1S.png" alt="" class="logo" />
+        <ul>
+          <li><a href="#section1">الرئيسية</a></li>
+          <li><a href="#section2">نبذة عنا</a></li>
+          <li><a href="#">الخدمات</a></li>
+          <li><a href="#">اتصل بنا</a></li>
+          <li><a href="#">المعرض</a></li>
+          <li><a href="#">تسجيل دخول </a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="section1" class="main">
+      <div class="div1">
+        <img src="img/3S.png" alt="" class="logo2" />
+
+        <h2>وش تبي بس</h2>
+
+        <img src="img/S1S.png" alt="" class="logo2" />
+      </div>
+    </section>
+
+    <section id="section2">
+      <h1 style="margin-bottom: 15px">يصل لك في اسرع وقت</h1>
+      <div class="slider">
+        <ul>
+          <li>
+            <img src="img/2k.jpg" alt="" class="logo2" />
+            <h5>تركيب</h5>
+          </li>
+          <li>
+            <img src="img/6k.jpg" alt="" class="logo2" />
+            <h5>تنضيف</h5>
+          </li>
+          <li>
+            <img src="img/4k.jpg" alt="" class="logo2" />
+            <h5>تصليح</h5>
+          </li>
+
+          <li>
+            <img src="img/5k.jpg" alt="" class="logo2" />
+            <h5>ترتيب</h5>
+          </li>
+        </ul>
+      </div>
+      <h1>نبذة عنا</h1>
+      <p>الخدمات التي تتوفر</p>
+    </section>
+  </body>
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector("header");
+      header.classList.toggle("scrolled", window.scrollY > 0);
+    });
+  </script>
+</html>
